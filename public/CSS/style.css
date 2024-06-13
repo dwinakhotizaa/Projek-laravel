@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+    background-color: #F5DAD2;
+}
+
+ul{
+    display: flex;
+    margin-left: 150px;
+    
+}
+
+li{
+    list-style-type: none;
+    padding-right: 30px;
+    
+}
+
+/*header*/
+
+ul {
+    display: flex;
+    margin-left: 30px;
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+    background-color: rgba(0, 0, 128, 0.514);
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid rgb(12, 12, 98);
+    
+}
+
+.logo {
+    font-size: 2em;
+    color: white;
+    cursor: default;
+}
+
+.navigation a {
+    font-size: 1.1em;
+    color: black;
+    text-decoration: none;
+    margin-right: 40px;
+    transition: .3s;
+}
+
+.navigation a:hover {
+    color: white;
+    text-decoration: none;
+    padding: 8px 8px;
+    background: rgba(0, 0, 128, 0.546);
+    border-radius: 5px;
+}
+
+/* Home */
+.home {
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+
+.home {
+    margin-top: 100px;
+} 
+
+h2 {
+    margin-bottom: 60px;
+    margin-left: 80px;
+    font-size: 40px;
+}
+
+h4 {
+    margin-bottom: 3px;
+    margin-left: 80px;
+}
+
+
+.tombol {
+    color: white;
+    padding: 10px 20px 10px 20px;
+    margin-top: 70px;
+    border-radius: 10px;
+    max-width: 250px;
+    margin: auto;
+    background-color: orange;
+}
+
+.tombol button {
+    padding: 10px;
+}
+
+.tombol:hover {
+    background: rgba(0, 0, 128, 0.427);
+    border: 1px solid white ;
+    box-shadow: 1px 1px 10px 1px blue;
+}
+
+.tombol button:hover {
+    color: rgb(10, 10, 10);
+    background-color: rgba(255, 166, 0, 0.479);
+    border-radius: 7px;
+    box-shadow: 1px 10px 1px 1p yellow;
+}
+
+.home img {
+    height: auto;
+    width: 200px;
+    border-radius: 20px;
+}
+
+/*Project*/
+
+.project{
+    background-color:white;
+    height: 370px;
+    text-align: center;
+}
+.project h1{
+    font-size: 40px;
+    padding-top: 40px;
+}
+.bx-one img{
+    width: 100px;
+
+}
+.bx-one{
+    margin-left: 250px;
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    margin-top: 50px;
+    display: flex;
+}
+.parent-bx{
+    display: flex;
+    margin-top: 40px;
+}
+.text-one{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.bx-two{
+    margin-left: 55px;
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    margin-top: 50px;
+    display: flex;
+}
+.text-two{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.bx-three{
+    margin-left: 20px;
+    width: 00px;
+    height: 100px;
+    background-color: white;
+    margin-top: 50px;
+    display: flex;
+}
+.text-three{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.certificate{
+    background-color:rgb(232,222,213);
+    display: flex;
+}
+
+.page-certificate h1{
+    font-size: 3 0px;
+    text-align: center;
+    padding-top: 3%;
+}
+
+/*footer*/
+
+footer {
+    background-color: navy;
+    padding: 20px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+
+.footer-contents h4 {
+    font-size: 20px;
+}
+
+.footer-contents p {
+    margin: 20px 50px 20px 0px;
+}
+
+.footer-contents li {
+    margin: 20px 50px 20px 0px;
+    text-decoration: none;
+    display: block;
+}
+
+.footer-contents a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-contents h4 {
+    margin-top: 20px;
+}
